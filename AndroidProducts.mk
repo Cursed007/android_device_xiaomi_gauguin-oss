@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_gauguin.mk
+    $(LOCAL_DIR)/ancient_gauguin.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_gauguin-userdebug \
-    xtended_gauguin-eng
+    ancient_gauguin-userdebug \
+    ancient_gauguin-eng
