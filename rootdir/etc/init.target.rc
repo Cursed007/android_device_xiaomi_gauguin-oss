@@ -91,6 +91,11 @@ on property:vendor.display.lcd_density=560
 
 on property:vendor.display.lcd_density=640
    setprop dalvik.vm.heapgrowthlimit 512m
+   
+on property:sys.boot_completed=1
+    # ZRAM configuration
+    swapon_all /vendor/etc/fstab.default
+    swapon_all /vendor/etc/fstab.emmc
 
 on boot && property:persist.vendor.usb.controller.default=*
     setprop vendor.usb.controller ${persist.vendor.usb.controller.default}
