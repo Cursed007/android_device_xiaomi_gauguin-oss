@@ -50,6 +50,7 @@ vendor.voice.path.for.pcm.voip=true
 
 # Bluetooth
 persist.vendor.qcom.bluetooth.soc=cherokee
+persist.vendor.bluetooth.modem_nv_support=true
 
 # Camera
 camera.disable_zsl_mode=true
